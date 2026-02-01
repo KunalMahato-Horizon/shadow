@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { 
-  Send, MapPin, Phone, Mail, ChevronRight, 
+  MapPin, Phone, Mail, ChevronRight, 
   TrendingUp, Users, Globe, Award, 
   Zap, Target, Smartphone, ArrowUpRight,
   Download, Code, BarChart, Sparkles,
   Shield, Clock, MessageSquare, Briefcase,
   ExternalLink, CheckCircle, Linkedin,
-  Twitter, Github, Calendar, User,
+  Twitter, Calendar, User,
   Star, Trophy, Heart, Menu, X,
   Camera, ArrowDown
 } from 'lucide-react';
