@@ -131,8 +131,8 @@ const ModernPortfolio = () => {
     contact: {
       email: "contact.vishalmahato@gmail.com",
       phone: "+91 6202357182",
-      linkedin: "https://linkedin.com/in/vishal-mahato",
-      twitter: "https://twitter.com/vishalmahato"
+      linkedin: "https://www.linkedin.com/in/vishal-kumar-mahato-83ab50318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "https://x.com/IMSHADOW555182"
     },
     stats: [
       { value: `${counters.projects}+`, label: "Projects", icon: <Briefcase /> },
@@ -477,14 +477,12 @@ const ModernPortfolio = () => {
               
               <motion.button
                 onClick={() => {
-                  // Add download resume functionality
-                  const link = document.createElement('a');
-                  link.href = '/resume.pdf';
-                  link.download = 'Vishal-Kumar-Mahato-Resume.pdf';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
+                  window.open(
+                    "https://drive.google.com/file/d/1Q8LKuchkKqHsRlSdd6KQBsppBq4XzWPt/view?usp=drivesdk",
+                    "_blank"
+                  );
                 }}
+
                 className="px-6 py-2 sm:px-8 sm:py-3 border-2 border-slate-700 rounded-full text-gray-300 font-medium hover:bg-slate-800 transition-all duration-300 flex items-center group text-sm sm:text-base"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
